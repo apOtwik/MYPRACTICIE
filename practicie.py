@@ -1,8 +1,6 @@
-a = int(input())
-b = int(input())
-c = int(input())
+age = int(input())
 
-if a + b > c and a + c > b and b + c > a:
-    print('YES')
+if age < 18:
+    print('Энергетик не продам')
 else:
-    print('NO')
+    print('Пшёл наху')
